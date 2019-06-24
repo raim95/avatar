@@ -1,2 +1,2 @@
 api_ip=777156
-api_hash=112a5cf7176b11914bfc0e47909d408a
+api_hash='112a5cf7176b11914bfc0e47909d408a'
