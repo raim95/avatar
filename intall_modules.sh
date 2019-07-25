@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 echo "opencv-pyrhon installing..."
 pip3 install opencv-python
