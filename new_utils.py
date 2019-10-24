@@ -16,7 +16,7 @@ end_time = start_time + timedelta(days=1)
 def generate_image_with_text(text):
     image = get_black_background()
     font = cv2.FONT_HERSHEY_SIMPLEX
-    cv2.putText(image, text, (int(image.shape[0]*0.25), int(image.shape[1]*0.58)), font, 10, (255, 0, 255), 2, cv2.LINE_AA)
+    cv2.putText(image, text, (int(image.shape[0]*0.05), int(image.shape[1]*0.58)), font, 5, (255, 0, 255), 2, cv2.LINE_AA)
     #convert_time_to_string(datetime.now()
     return image
     
